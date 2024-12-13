@@ -228,6 +228,8 @@ section {
     width: 226px;
     height: 51px;
     padding: 13px 68px;
+    font-size: 21px;
+    font-weight: 400;
     background: #65256F;
     color: white;
     border-radius: 3px;
