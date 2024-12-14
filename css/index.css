@@ -215,12 +215,266 @@
     grid-template-columns: repeat(3, 1fr);
     column-gap: 34px;
     border-radius: 3px;
-    width: 368px;
-    height: 300px;
-    /* row-gap: 30px; */
 }
 
 .production__wrapper div {
     background-size: cover;
     background-position: center;
+}
+
+
+
+
+.price-title {
+    margin-top: 95px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.price-title h2 {
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 8px;
+    background-color: white;
+}
+
+.price-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 26px;
+    column-gap: 30px;
+}
+
+.price-wrapper div {
+    background-size: cover;
+    background-position: center;
+}
+
+.price__block-1 {
+    background-image: url('../images/block-1.jpg');
+}
+
+.price__block-2 {
+    background-image: url('../images/block-2.jpg');
+}
+
+.price__block-3 {
+    background-image: url('../images/block-3.jpg');
+}
+
+.price__block-4 {
+    background-image: url('../images/block-5.jpg');
+}
+
+.price__block-5 {
+    background-image: url('../images/block-1.jpg');
+}
+
+.price__block-6 {
+    background-image: url('../images/block-2.jpg');
+}
+
+.price__block-7 {
+    background-image: url('../images/block-3.jpg');
+}
+
+.price__block-8 {
+    background-image: url('../images/block-5.jpg');
+}
+
+.toon-1 {
+    width: 270px;
+    height: 387px;
+    border-radius: 3px;
+}
+
+.toon-2 {
+    width: 270px;
+    height: 387px;
+    border-radius: 3px;
+}
+
+.toon-3 {
+    width: 270px;
+    height: 387px;
+    border-radius: 3px;
+}
+
+.toon-4 {
+    width: 270px;
+    height: 387px;
+    border-radius: 3px;
+}
+
+.toon-5 {
+    width: 270px;
+    height: 387px;
+    border-radius: 3px;
+    margin-top: 48px;
+}
+
+.toon-6 {
+    width: 270px;
+    height: 387px;
+    border-radius: 3px;
+    margin-top: 48px;
+}
+
+.toon-7 {
+    width: 270px;
+    height: 387px;
+    border-radius: 3px;
+    margin-top: 48px;
+}
+
+.toon-8 {
+    width: 270px;
+    height: 387px;
+    border-radius: 3px;
+    margin-top: 48px;
+}
+
+.price__card-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #5E5E5E;
+}
+
+.price__card-contacts h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4C1F8C;
+}
+
+
+.toon-1 p {
+    margin-top: 397px;
+}
+
+.toon-1 h4 {
+    margin-top: 6px;
+
+}
+
+.toon-2 p {
+    margin-top: 397px;
+}
+
+.toon-2 h4 {
+    margin-top: 6px;
+
+}
+
+.toon-3 p {
+    margin-top: 397px;
+}
+
+.toon-3 h4 {
+    margin-top: 6px;
+
+}
+
+.toon-4 p {
+    margin-top: 397px;
+}
+
+.toon-4 h4 {
+    margin-top: 6px;
+
+}
+
+.toon-5 p {
+    margin-top: 397px;
+}
+
+.toon-5 h4 {
+    margin-top: 6px;
+
+}
+
+.toon-6 p {
+    margin-top: 397px;
+}
+
+.toon-6 h4 {
+    margin-top: 6px;
+
+}
+
+.toon-7 p {
+    margin-top: 397px;
+}
+
+.toon-7 h4 {
+    margin-top: 6px;
+
+}
+
+.toon-8 p {
+    margin-top: 397px;
+}
+
+.toon-8 h4 {
+    margin-top: 6px;
+
+}
+
+.price__button {
+    width: 368px;
+    height: 60px;
+    padding: 20px 120px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 100px;
+    background: #65256F;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.price-button {
+    margin-left: 412px;
+}
+
+
+
+
+
+
+.clients-title {
+    margin-top: 95px;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.clients-title h2 {
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 8px;
+    background-color: white;
+}
+
+.clients-wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+}
+
+.clients-wrapper div {
+    background-size: cover;
+    background-position: center;
+}
+
+.clients-block {
+    background-image: url('../images/nike.jpg');
+}
+
+.log {
+    width: 168px;
+    height: 130px;
 }
