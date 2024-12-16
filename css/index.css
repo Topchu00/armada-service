@@ -32,6 +32,14 @@
     border: none;
 }
 
+.main-banner__content button:hover {
+    transition: 0.5s;
+    background-color: #65256F;
+    transform: translateY(10%);
+    color: #fff;
+    transform: scale(1.1);
+}
+
 .main-banner__social {
     display: flex;
     align-items: center;
@@ -134,28 +142,59 @@
     background-position: center;
 }
 
+
 .works__block-1 {
     background-image: url('../images/block-1.jpg');
+}
+
+.works__block-1:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 .works__block-2 {
     background-image: url('../images/block-2.jpg');
 }
 
+.works__block-2:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
 .works__block-3 {
     background-image: url('../images/block-3.jpg');
+}
+
+.works__block-3:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 .works__block-4 {
     background-image: url('../images/block-4.jpg');
 }
 
+.works__block-4:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
 .works__block-5 {
     background-image: url('../images/block-1.jpg');
 }
 
+.works__block-5:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
 .works__block-6 {
     background-image: url('../images/block-5.jpg');
+}
+
+.works__block-6:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 .art {
@@ -193,6 +232,14 @@
     margin-left: 412px;
 }
 
+.works__button:hover {
+    transition: 0.5s;
+    background-color: #d4f737;
+    transform: scale(1.1);
+    color: black;
+    transform: translatez(10%);
+}
+
 
 .production__title {
     margin-top: 95px;
@@ -222,6 +269,10 @@
     background-position: center;
 }
 
+.it:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 
 
 
